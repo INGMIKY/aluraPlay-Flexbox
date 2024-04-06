@@ -55,6 +55,20 @@
 }
 
 
+    /* videos */
+    .videos__item{
+        height: 303px;
+        width: 280px;
+        flex-grow: 1;
+    }
+
+    .videos__container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
 
 
 /* Rodapie */
@@ -91,6 +105,7 @@
         gap: 33px;
     }
 
+    
 
     /* Rodapie */
     .rodapie__container{
@@ -126,5 +141,25 @@
             align-items: center;
         }
 
-        
+    .menu__lista:nth-child(3){
+        flex-direction: column-reverse;
+    }
+
+    .videojuegos{
+        order: 4;
+    }
+
+    .peliculas{
+        order: 3;
+    }
+
+    .premium{
+        order: 2;
+    }
+       
+    .menu__itens{
+        order:1 ;
+    }
+
+    
 }
